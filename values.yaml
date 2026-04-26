@@ -1,0 +1,8 @@
+replicaCount: 1
+
+image:
+  tag: "latest"
+
+env:
+  - name: APP_ENV
+    value: "dev"
